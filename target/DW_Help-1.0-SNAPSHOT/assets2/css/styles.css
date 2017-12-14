@@ -1,0 +1,114 @@
+img.fundo_1{
+  margin-top:-25%;
+}
+
+img.logo_bar{
+  margin-top:-8%;
+}
+
+a.navbar-brand.navbar-link.icone{
+}
+
+button.btn.btn-success{
+  position:inherit;
+  align-content:center;
+  align-items:center;
+}
+
+div.botao{
+  align-items:center;
+  text-align:center;
+  padding:10px;
+}
+
+h1.text-center.junte{
+  margin-top:-11%;
+  color:#fcfbfb;
+  font-size:150px;
+}
+
+img.junte{
+  margin-top:-17%;
+}
+
+div.Sexo{
+  text-align:center;
+}
+
+p.lead.text-center.texto_1{
+  padding:20px;
+}
+
+div.acoes{
+  text-align:center;
+}
+
+button.btn.btn-success.btn-lg{
+  margin:10px;
+}
+
+button.btn.btn-primary.btn-lg{
+  margin:10px;
+}
+
+button.btn.btn-info.btn-lg{
+  margin:10px;
+}
+
+img.fundo_2{
+  margin-top:-15%;
+}
+
+img.fundo_3{
+  margin-top:-10%;
+}
+
+img.fundo_4{
+  margin-top:-7%;
+}
+
+ul.list-group{
+  text-align:center;
+  font-size:20px;
+  margin:20px;
+}
+
+i.fa.fa-facebook-square{
+  font-size:x-large;
+}
+
+i.fa.fa-envelope-square{
+  font-size:xx-large;
+  color:#b32424;
+}
+
+i.fa.fa-phone-square{
+  font-size:xx-large;
+  color:#2a731f;
+}
+
+p.text-center.text-success{
+  font-size:25px;
+  margin:10px;
+}
+
+div{
+  text-align:center;
+}
+
+button.btn.btn-info{
+  margin:10px;
+}
+
+button.btn.btn-success{
+  margin:20px;
+}
+
+li.list-group-item{
+  text-align:end;
+}
+
+span{
+  align-self:initial;
+}
+

@@ -21,9 +21,9 @@
             </div>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li role="presentation"><a href="#">Pesquisar </a></li>
-                    <li role="presentation"><a href="Cadastro.jsp">Cadastro </a></li>
-                    <li role="presentation"><a href="Login.jsp">Login </a></li>
+                     <li role="presentation"><a href="Inf.jsp">+ Informações</a></li>
+                        <li role="presentation"><a href="Cadastro.jsp">Cadastro </a></li>
+                        <li role="presentation"><a href="Login.jsp">Login </a></li>
                 </ul>
             </div>
         </div>
@@ -36,15 +36,19 @@
     <div></div>
     <div class="login">
         <h1 class="text-center">Login </h1>
-        <form class="form-horizontal logform">
-            <h3>Login </h3>
-            <input class="form-control" type="text" placeholder="Seu Login">
-            <h3>Senha </h3>
-            <input class="form-control" type="password" placeholder="Sua Senha">
-            <div class="botao">
-                <div class="btn-group btn-group-justified" role="group"><a class="btn btn-success" role="button" href="#">Entrar </a><a class="btn btn-primary" role="button" href="#">Criar </a></div>
-            </div>
-        </form>
+        <form class="form-horizontal logform" id="Login" name="Login" method="post" action="Login">
+                <h3>Login </h3>
+                <input required  id="log" name="log"  class="form-control" type="text" placeholder="Seu Login">
+                <h3>Senha </h3>
+                <input required maxlength="32" minlength="8" id="sen" name="sen"  class="form-control" type="password" placeholder="Sua Senha">
+                <div class="botao">
+                    <div class="btn-group btn-group-justified" role="group">
+
+                        <a id="btEntrar" type="" name="entrar" value="Entrar" class="btn btn-success" role="button"><button id="btEntrar" class="btlog" type="submit" name="entrar" value="Entrar">Entrar</button></a>
+                        <a class="btn btn-primary" role="button" href="Cadastro.jsp">Criar </a>
+                    </div>
+                </div>
+            </form>
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>

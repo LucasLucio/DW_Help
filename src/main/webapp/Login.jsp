@@ -31,7 +31,7 @@
                 </div>
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li role="presentation"><a href="#">Pesquisar </a></li>
+                         <li role="presentation"><a href="Inf.jsp">+ Informações</a></li>
                         <li role="presentation"><a href="Cadastro.jsp">Cadastro </a></li>
                         <li role="presentation"><a href="Login.jsp">Login </a></li>
                     </ul>
@@ -53,27 +53,7 @@
                     </div>
                 </div>
             </form>
-            <%
-            com.mycompany.dw_help.Login objto = new com.mycompany.dw_help.Login();
-            String erro = objto.getErros();
-
-            if (erro.equals("naotem")) {
-                System.out.println("foi");
-                objto.setErros("tem");
-            %>
-                <script> alert("Usuário ou Senha errados");</script>
-            <% }%>
         </div>
-        <%
-            com.mycompany.help_dw.Cadastro obj = new com.mycompany.help_dw.Cadastro();
-            String Cadastrou = obj.getCadastrou();
-
-            if (Cadastrou.equals("sim")) {
-                System.out.println("foi");
-                obj.setCadastrou("nao");
-        %>
-                <script> alert("Faça Login com seu novo usuário para continuar...");</script>
-        <% }%>
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     </body>

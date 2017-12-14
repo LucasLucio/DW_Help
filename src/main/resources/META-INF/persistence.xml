@@ -8,6 +8,7 @@
     <class>Entidades.Pessoa</class>
     <class>Entidades.Cidade</class>
     <class>Entidades.ServicosDescricao</class>
+    <class>Entidades.Auxiliar</class>
     <exclude-unlisted-classes>false</exclude-unlisted-classes>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/help?zeroDateTimeBehavior=convertToNull"/>

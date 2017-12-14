@@ -132,7 +132,7 @@ public class ServicosDescricao implements Serializable {
 
     @Override
     public String toString() {
-        return "Entidades.ServicosDescricao[ servicosDescricaoPK=" + servicosDescricaoPK + " ]";
+        return servicosDescricaoPK + ";" + valorCobrado + ";" + dataServico + ";" + contrato + ";" + servicos;
     }
     
 }

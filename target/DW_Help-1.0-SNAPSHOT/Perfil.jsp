@@ -21,18 +21,18 @@
     </head>
     <c:set var="username" scope="session" value="${session}"></c:set>
     <c:if test="${sessionScope.username == null}">
-        <c:redirect url="index.jsp"></c:redirect>
+        <c:redirect url="IndexErro.jsp"></c:redirect>
     </c:if>
     <body>
         <nav class="navbar navbar-default">
             <div class="container">
                 <div class="navbar-header">
-                    <a class="navbar-brand navbar-link icone" href="#"> <img src="assets/img/Logo_small.png" class="icone"></a>
+                    <a class="navbar-brand navbar-link icone" href="index.jsp"> <img src="assets/img/Logo_small.png" class="icone"></a>                   
                     <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
                 </div>
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li role="presentation"><a href="#">Pesquisar </a></li>
+                        <li role="presentation"><a href="Inf.jsp">+ Informações</a></li>
                         <li role="presentation"><a href="Cadastro.jsp">Cadastro </a></li>
                         <li role="presentation"><a href="Login.jsp">Login </a></li>
                     </ul>
@@ -40,8 +40,8 @@
             </div>
         </nav><img src="assets/img/Home.jpg" width="100%" height="auto" class="fundo_2">
         <div class="div_1">
-             <c:if test="${sessionScope.username != null}">
-            <h1 class="text-center h_1">Bem vindo ao seu Perfil <c:out value="${sessionScope.username}"/> </h1> 
+            <c:if test="${sessionScope.username != null}">
+                <h1 class="text-center h_1">Bem vindo ao seu Perfil <c:out value="${sessionScope.username}"/> </h1> 
             </c:if>
             <p class="lead text-center texto_1">Aqui no seu perfil o controle é totalmente seu, você pode usar suas informaçoes de forma segura para solicitar nossos serviços na página "Contratos". Assim você poderá ter certeza de que o seu evento está em boas mãos e que não faltará diversão
                 em suas festas.</p>
@@ -52,7 +52,7 @@
                 Todos os links de Acesso estão nos botões abaixo.</p>
         </div>
         <div class="acoes">
-            <button class="btn btn-success btn-lg" type="button"><i class="glyphicon glyphicon-list-alt"></i> - Novo Contrato</button>
+            <a href="Contrato1.jsp"><button class="btn btn-success btn-lg" type="button"><i class="glyphicon glyphicon-list-alt"></i> - Novo Contrato</button></a>
             <button class="btn btn-primary btn-lg" type="button"><i class="glyphicon glyphicon-inbox"></i> - Contratos </button>
             <a href="Sair"><button  class="btn btn-danger btn-lg" ><i class="glyphicon glyphicon-off"></i> - Sair </button></a>
         </div>

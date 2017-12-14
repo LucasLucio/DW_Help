@@ -1,0 +1,52 @@
+.navbar{
+  position:relative;
+  min-height:50px;
+  margin-bottom:20px;
+  border:0px transparent;
+  background:rgba(255,255,255,0);
+}
+
+img.icone{
+  margin-top:-22%;
+}
+
+img.bem_vindo{
+  margin-top:-45%;
+}
+
+body{
+  font-family:'Raleway';
+  text-decoration-color:#ffffff;
+}
+
+p.lead.text-justify.texto_1{
+  padding-left:5%;
+  padding-right:5%;
+  padding-bottom:3%;
+}
+
+h1.text-center.h_1{
+  font-size:50px;
+}
+
+div.div_1{
+}
+
+div.login{
+  background:#ffffff;
+}
+
+form.form-horizontal.logform{
+  padding-left:30%;
+  padding-right:30%;
+  padding-bottom:3%;
+}
+
+li.list-group-item{
+  text-align:initial;
+}
+
+input{
+  font-size:xx-large;
+}
+

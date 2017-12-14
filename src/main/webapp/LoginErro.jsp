@@ -31,7 +31,7 @@
                 </div>
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li role="presentation"><a href="#">Pesquisar </a></li>
+                <li role="presentation"><a href="Inf.jsp">+ Informações</a></li>
                         <li role="presentation"><a href="Cadastro.jsp">Cadastro </a></li>
                         <li role="presentation"><a href="Login.jsp">Login </a></li>
                     </ul>
